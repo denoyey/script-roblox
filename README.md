@@ -2,58 +2,56 @@
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Library](https://img.shields.io/badge/Library-Rayfield-blueviolet)
-![Universal](https://img.shields.io/badge/Compatibility-Universal-orange)
+![Modular](https://img.shields.io/badge/Type-Modular_Hub-orange)
 
-A powerful, multi-functional internal script hub built with the **Rayfield UI Library**. Designed for seamless gameplay enhancement with a sleek, modern aesthetic and high-performance features.
+A powerful, internal script hub built with the **Rayfield UI Library**. Designed as a modular ecosystem featuring a high-performance **Universal Hub** and dedicated modules for specific games.
 
 ---
 
-## ✨ Features Overview
+## 🌌 Universal Hub Features
+*Available in all games to enhance your core character physics and environment.*
 
-This script provides a comprehensive suite of tools categorized into several dedicated tabs for a streamlined experience.
+### ⚔️ Combat & Utility
+*   **Hitbox Expander**: Increase player hitboxes for easier targeting (Adjustable 5 - 50 size).
+*   **Fast Auto-Clicker**: High-speed automated clicking using VirtualUser simulation.
 
-### 🛡️ Player & Dunia (World)
-*   **Player Profile**: Live display of your current Character Name, Username, and ID.
-*   **Reset Settings**: Instantly revert WalkSpeed, JumpPower, and Gravity to default values.
+### 🏃 Pergerakan (Movement)
+*   **Advanced Fly**: Smooth flight mode controlled by camera direction.
+*   **Noclip**: Disable all collisions to move through walls and objects.
+*   **Infinite Jump**: No jump cooldown or limits.
+*   **Walk on Water**: Walk on lakes and oceans as solid ground.
+*   **Physics Modifiers**: Sliders for **WalkSpeed** (16-200) and **JumpPower** (50-500).
+*   **Click TP**: Instant teleportation to cursor (Hotkey: `Ctrl + LClick`).
 
-### ⚔️ Combat Enhancement
-*   **Hitbox Expander**: Greatly Increase the hit area of other players for effortless targeting.
-*   **Custom Size Slider**: Precision control over hitbox size (5 - 50).
+### 👁️ Visual & Dunia (Environment)
+*   **FPS Boost (Ultra Low)**: Advanced optimization that strips heavy materials and effects for maximum performance on low-end PCs.
+*   **Player Highlight ESP**: Vibrant outlines to track players through any obstacle.
+*   **Freecam**: Free-roaming camera mode for cinematic exploration.
+*   **FullBright**: Replaces darkness with permanent 100% visibility.
+*   **Anti-Void**: Prevents death by creating a safety platform at the map's boundary.
+*   **Unlock Max Zoom**: Removes camera distance limits (up to 100,000 range).
 
-### 🏃 Movement Tools
-*   **WalkSpeed & JumpPower**: High-precision sliders for character physics modification.
-*   **Walk on Water**: Traverse aquatic environments as if they were solid ground.
-*   **Fly System**: Advanced flight mode with an adjustable **Fly Speed** slider (10 - 300).
-*   **Noclip**: Disable character collisions to phase through solid objects.
-*   **Infinite Jump**: Removes the jump limit, allowing for vertical mobility.
+### 🛡️ Sistem & Proteksi
+*   **Powerful Anti-AFK**: State-of-the-art prevention against "Disconnected for inactivity" (20 mins idle).
+*   **Anti-Chat Logger**: Privacy protection for your in-game communication.
+*   **Spinbot**: High-velocity Beyblade rotation for character trolling.
+*   **System Tools**: Server Hop, Rejoin Server, and instant Character Kill.
 
-### 👁️ Visuals & Environment
-*   **ESP (Extra Sensory Perception)**: Highlight enemies/players through walls with dynamic red outlines.
-*   **Freecam**: Detach your camera from your player for free exploration (Keys: W, S, A, D, Q, E).
-*   **FullBright**: Eliminate darkness and shadows for crystal clear visibility in any environment.
-*   **FPS Boost**: Advanced optimization mode that simplifies materials and disables heavy effects to maximize performance.
-*   **Anti-Void**: Automatic safety net that creates a platform at the map's boundary to prevent falling into the abyss.
-*   **FOV & Gravity Sliders**: Dynamic control over your field of view and local world gravity.
+---
 
-### 🌀 TP & Troll Utilities
-*   **Teleport to Player**: Seamlessly jump to any player currently in the server via a dynamic dropdown list.
-*   **Click TP**: Instant teleportation to your mouse cursor position (Hotkey: `Ctrl + Click`).
-*   **Target Fling**: Unleash high-velocity physics to fling selected targets across the map.
+## 🎮 Supported Games
+*Custom tailored automation for specific experiences.*
 
-### ⚙️ System Utilities
-*   **Server Hop**: Fast-switch to another public server within the same game.
-*   **Auto-Cleanup**: Efficient memory management and clean-up when toggling features.
+### 🎣 Star Fishing (Place: 86111605798689)
+*   **Auto Fish**: Completely automated fishing cycle.
+*   **Instant Reel/Confirm**: Skips the waiting mini-games for maximum efficiency.
+*   **Auto Farming**: Continuous cast and retrieve logic for peak profit.
 
 ---
 
 ## 🛠️ Installation & Execution
 
-To utilize this script, follow these standard implementation steps:
-
-1.  Open your preferred **Script Executor** (Synapse X, Krnl, Fluxus, etc.).
-2.  Navigate to the `encode/` directory or use the raw code from `main-decoded.lua`.
-3.  Inject the executor into the game client.
-4.  Copy the script content and click **Execute**.
+To initiate the premium hub, execute the following loadstring in your preferred executor:
 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/denoyey/script-roblox/refs/heads/main/encode/main.lua"))()
@@ -69,4 +67,4 @@ Special thanks to the **Sirius Team** for the Rayfield UI Library.
 ---
 
 > [!WARNING]
-> This script is for educational purposes only. Use responsibly and at your own risk.
+> This script is for educational purposes only. Features involving high-velocity movement (Fly/Fling) or automation may carry risks. Use responsibly.
