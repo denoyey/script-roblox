@@ -57,7 +57,7 @@ To utilize this script, follow these standard implementation steps:
 
 ```lua
 -- Example execution (Decoded)
-loadstring(game:HttpGet("YOUR_LINK_HERE"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/denoyey/script-roblox/refs/heads/main/encode/main.lua"))()
 ```
 
 ---
