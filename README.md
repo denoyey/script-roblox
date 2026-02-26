@@ -2,9 +2,10 @@
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Library](https://img.shields.io/badge/Library-Rayfield-blueviolet)
-![Modular](https://img.shields.io/badge/Type-Modular_Hub-orange)
+![Type](https://img.shields.io/badge/Type-Modular_Hub-orange)
+![Platform](https://img.shields.io/badge/Platform-PC_%2F_Mobile-blue)
 
-A powerful, internal script hub built with the **Rayfield UI Library**. Designed as a modular ecosystem featuring a high-performance **Universal Hub** and dedicated modules for specific games.
+A powerful, internal script hub built with the **Rayfield UI Library**. Designed as a modular ecosystem featuring a high-performance **Universal Hub** and dedicated modules for specific games. Supports both PC and Mobile executors.
 
 ---
 
@@ -14,6 +15,7 @@ A powerful, internal script hub built with the **Rayfield UI Library**. Designed
 ### ⚔️ Combat & Utility
 *   **Hitbox Expander**: Increase player hitboxes for easier targeting (Adjustable 5 - 50 size).
 *   **Fast Auto-Clicker**: High-speed automated clicking using VirtualUser simulation.
+*   **Targeted Fling**: Launch specific players into the stratosphere (Requires selecting a target).
 
 ### 🏃 Pergerakan (Movement)
 *   **Advanced Fly**: Smooth flight mode controlled by camera direction.
@@ -35,12 +37,19 @@ A powerful, internal script hub built with the **Rayfield UI Library**. Designed
 *   **Powerful Anti-AFK**: State-of-the-art prevention against "Disconnected for inactivity" (20 mins idle).
 *   **Anti-Chat Logger**: Privacy protection for your in-game communication.
 *   **Spinbot**: High-velocity Beyblade rotation for character trolling.
-*   **System Tools**: Server Hop, Rejoin Server, and instant Character Kill.
+*   **System Tools**: Server Hop, Rejoin Server, Kill Character, Reset All Settings, and Destroy GUI.
 
 ---
 
 ## 🎮 Supported Games
 *Custom tailored automation for specific experiences.*
+
+### 🧩 Sambung Kata (Place: 130342654546662)
+*   **Auto Answer Bot**: Otomatis menjawab kata dengan cerdas dan cepat.
+*   **Human-like Typing**: Delay pengetikan yang dapat disesuaikan (ms) agar terlihat natural.
+*   **Customizable Aggression**: Pilih strategi menggunakan kata pendek atau panjang.
+*   **Smart Memory**: Sistem yang mengingat kata yang sudah digunakan agar tidak terjadi pengulangan.
+*   **Wordlist Database**: Terkoneksi dengan ribuan database kata bahasa Indonesia.
 
 ### 🎣 Star Fishing (Place: 86111605798689)
 *   **Auto Fish**: Completely automated fishing cycle.
@@ -51,11 +60,14 @@ A powerful, internal script hub built with the **Rayfield UI Library**. Designed
 
 ## 🛠️ Installation & Execution
 
-To initiate the premium hub, execute the following loadstring in your preferred executor:
-
+### 💻 PC Execution
+Copy and paste the following loadstring into your executor (Synapse X, Krnl, Fluxus, etc.):
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/denoyey/script-roblox/refs/heads/main/encode/main.lua"))()
 ```
+
+### 📱 Mobile Support
+The hub features a dedicated **Floating Action Button (⚙️)** for mobile users to toggle the menu visibility easily. Drag the button anywhere on your screen for convenience.
 
 ---
 
@@ -67,4 +79,4 @@ Special thanks to the **Sirius Team** for the Rayfield UI Library.
 ---
 
 > [!WARNING]
-> This script is for educational purposes only. Features involving high-velocity movement (Fly/Fling) or automation may carry risks. Use responsibly.
+> This script is for educational purposes only. Features involving high-velocity movement (Fly/Fling) or automation may carry risks of bans. Use responsibly at your own risk.
