@@ -56,6 +56,16 @@ A powerful, internal script hub built with the **Rayfield UI Library**. Designed
 *   **Instant Reel/Confirm**: Skips the waiting mini-games for maximum efficiency.
 *   **Auto Farming**: Continuous cast and retrieve logic for peak profit.
 
+### 💰 Notoriety (Universe: 16680835 / Place: 21532277)
+*   **Infinite Stamina**: Berlari tanpa henti tanpa peduli limit stamina karakter.
+*   **Infinite Damage**: Meningkatkan poin damage ke titik maksimum untuk Instant Kill.
+*   **Enhanced ESP**: Tampilan visual yang menyoroti pergerakan Polisi, Kamera, Warga Sipil, Area Aman, Loot, hingga Brankas/Deposit.
+*   **Teleports & Items**:
+    *   Teleport karakter ke **Keycard** terdekat.
+    *   Teleport semua Tas Barang Jarahan langsung ke Area Keamanan (Van/Car).
+    *   Dapatkan **BodyBags** dan **Cable Ties** instan.
+*   **System Tools**: Hapus semua NPC dengan sekali klik (execute once) dan Force Vote Reset.
+
 ---
 
 ## 🛠️ Installation & Execution
