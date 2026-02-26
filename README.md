@@ -76,9 +76,6 @@ Copy and paste the following loadstring into your executor (Synapse X, Krnl, Flu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/denoyey/script-roblox/refs/heads/main/encode/main.lua"))()
 ```
 
-### 📱 Mobile Support
-The hub features a dedicated **Floating Action Button (⚙️)** for mobile users to toggle the menu visibility easily. Drag the button anywhere on your screen for convenience.
-
 ---
 
 ## 📜 Credits
