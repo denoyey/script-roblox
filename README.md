@@ -15,29 +15,48 @@ A powerful, internal script hub built with the **Rayfield UI Library**. Designed
 ### ⚔️ Combat & Utility
 *   **Hitbox Expander**: Increase player hitboxes for easier targeting (Adjustable 5 - 50 size).
 *   **Fast Auto-Clicker**: High-speed automated clicking using VirtualUser simulation.
-*   **Targeted Fling**: Launch specific players into the stratosphere (Requires selecting a target).
 
 ### 🏃 Pergerakan (Movement)
-*   **Advanced Fly**: Smooth flight mode controlled by camera direction.
+*   **Physics Modifiers**: Sliders for **WalkSpeed** (16-200) and **JumpPower** (50-500).
+*   **Fly**: Smooth flight mode controlled by camera direction.
 *   **Noclip**: Disable all collisions to move through walls and objects.
 *   **Infinite Jump**: No jump cooldown or limits.
-*   **Walk on Water**: Walk on lakes and oceans as solid ground.
-*   **Physics Modifiers**: Sliders for **WalkSpeed** (16-200) and **JumpPower** (50-500).
-*   **Click TP**: Instant teleportation to cursor (Hotkey: `Ctrl + LClick`).
+
+### 📍 Sistem Waypoint
+*   **Save & Delete Position**: Save your current CFrame to memory or remove it.
+*   **Teleport Once**: Instantly teleport to any saved waypoint.
+*   **Auto-Teleport**: Continuous looping teleport to a selected waypoint with adjustable delay (0.1s - 10s).
 
 ### 👁️ Visual & Dunia (Environment)
-*   **FPS Boost (Ultra Low)**: Advanced optimization that strips heavy materials and effects for maximum performance on low-end PCs.
+*   **Walk on Water**: Walk on lakes and oceans as solid ground.
+*   **FPS Boost (Low Graphics)**: Strips heavy materials, textures, and effects for maximum performance on low-end PCs.
 *   **Player Highlight ESP**: Vibrant outlines to track players through any obstacle.
 *   **Freecam**: Free-roaming camera mode for cinematic exploration.
+*   **Unlock Max Zoom**: Removes camera distance limits (up to 100,000 range).
 *   **FullBright**: Replaces darkness with permanent 100% visibility.
 *   **Anti-Void**: Prevents death by creating a safety platform at the map's boundary.
-*   **Unlock Max Zoom**: Removes camera distance limits (up to 100,000 range).
 
-### 🛡️ Sistem & Proteksi
-*   **Powerful Anti-AFK**: State-of-the-art prevention against "Disconnected for inactivity" (20 mins idle).
-*   **Anti-Chat Logger**: Privacy protection for your in-game communication.
-*   **Spinbot**: High-velocity Beyblade rotation for character trolling.
-*   **System Tools**: Server Hop, Rejoin Server, Kill Character, Reset All Settings, and Destroy GUI.
+### 🤪 TP & Troll
+*   **Teleport to Player**: Instantly teleport to a selected player.
+*   **Click TP**: Instant teleportation to cursor (Hotkey: `Ctrl + LClick`).
+*   **Targeted Fling**: Launch specific players into the stratosphere (Requires selecting a target).
+*   **Spinbot (Beyblade Mode)**: High-velocity Beyblade rotation for character trolling.
+
+### 🕺 Emote System
+*   **Play/Stop Emotes**: Execute or force stop equipped Roblox emotes directly from the hub.
+*   **Refresh Emotes**: Automatically fetches your currently equipped emotes.
+
+### 🛡️ Sistem & Keamanan
+*   **Anti-Chat Logger (Privacy)**: Privacy protection for your in-game communication.
+*   **Powerful Anti-AFK**: State-of-the-art prevention against "Disconnected for inactivity".
+*   **System Tools**: Kill Character, Rejoin Server, Server Hop, Reset All Settings, and Destroy GUI.
+
+### 👨‍💻 Dev Tools (Developer Only)
+*Exclusive whitelist-only features for game debugging and analysis.*
+*   **Load SimpleSpy**: Network remote spy tool to track RemoteEvents and RemoteFunctions.
+*   **Execute Cobalt**: Advanced network spy execution.
+*   **Load Dark Dex V3**: Bypassed in-game Roblox Studio Explorer.
+*   **Load Infinite Yield**: Powerful set of admin commands for advanced testing.
 
 ---
 
