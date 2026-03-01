@@ -60,30 +60,28 @@ A powerful, internal script hub built with the **Rayfield UI Library**. Designed
 
 ---
 
-## 🎮 Supported Games
-*Custom tailored automation for specific experiences.*
+## 🎮 Supported Games & Multi-Place System
+*Custom tailored automation for specific experiences, armed with an automatic game ID detection mapping system that securely bridges Universe ID to its targeted modules.*
 
 ### 🧩 Sambung Kata (Place: 130342654546662)
 *   **Auto Answer Bot**: Otomatis menjawab kata dengan cerdas dan cepat.
-*   **Human-like Typing**: Delay pengetikan yang dapat disesuaikan (ms) agar terlihat natural.
-*   **Customizable Aggression**: Pilih strategi menggunakan kata pendek atau panjang.
-*   **Smart Memory**: Sistem yang mengingat kata yang sudah digunakan agar tidak terjadi pengulangan.
-*   **Wordlist Database**: Terkoneksi dengan ribuan database kata bahasa Indonesia.
+*   **Bot Settings (Safe Mode)**: Pengaturan mendetail mulai dari *Aggression (%)*, *Min/Max Typing Delay* (meniru delay manusia per huruf), hingga limit *Min/Max Word Length*.
+*   **Smart Memory (Lupa Kata)**: Sistem yang secara cerdas mengingat kata yang sudah digunakan agar tidak terkena penalti pengulangan, beserta tombol untuk me-reset histori.
+*   **Riwayat Kata**: Tersedia *Dropdown* untuk memonitor history interaksi kata kamu di game.
+*   **Wordlist Database**: Secara real-time *fetching* dan terhubung dengan ribuan bank database kata.
 
 ### 🎣 Star Fishing (Place: 86111605798689)
-*   **Auto Fish**: Completely automated fishing cycle.
-*   **Instant Reel/Confirm**: Skips the waiting mini-games for maximum efficiency.
-*   **Auto Farming**: Continuous cast and retrieve logic for peak profit.
+*   **Auto Fish**: Completely automated full continuous fishing cycle logic.
+*   **Instant Reel/Confirm**: Skip the standard waiting mini-games and automatically confirm items to maximize absolute efficiency and profit.
 
 ### 💰 Notoriety (Universe: 16680835 / Place: 21532277)
-*   **Infinite Stamina**: Berlari tanpa henti tanpa peduli limit stamina karakter.
-*   **Infinite Damage**: Meningkatkan poin damage ke titik maksimum untuk Instant Kill.
-*   **Enhanced ESP**: Tampilan visual yang menyoroti pergerakan Polisi, Kamera, Warga Sipil, Area Aman, Loot, hingga Brankas/Deposit.
-*   **Teleports & Items**:
-    *   Teleport karakter ke **Keycard** terdekat.
-    *   Teleport semua Tas Barang Jarahan langsung ke Area Keamanan (Van/Car).
-    *   Dapatkan **BodyBags** dan **Cable Ties** instan.
-*   **System Tools**: Hapus semua NPC dengan sekali klik (execute once) dan Force Vote Reset.
+*   **Infinite Stamina & Damage**: Lari sepuasnya tanpa stamina limit dan boost damage ke titik maksimum untuk *Instant Kill*.
+*   **Enhanced ESP (Chams)**: Tampilan visual ber-warna untuk mendeteksi pergerakan *Police* (Merah), *Cameras* (Biru), *Citizens*, *Safe Spots*, *Lootables*, hingga *Brankas/Military Crate*.
+*   **Teleports & Automated Items**:
+    *   Instantly Teleport karakter ke letak **Keycard** terdekat.
+    *   Teleport semua Kantong Barang Jarahan (Bags) menembus langung ke Area Keamanan / Mobil pelarian (Van/Car).
+    *   Dapatkan **BodyBags** dan **Cable Ties** secara instan.
+*   **System Tools**: Melakukan eksekusi *Force Vote Reset* dengan sekali klik.
 
 ---
 
