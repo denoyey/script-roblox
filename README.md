@@ -51,6 +51,11 @@ A powerful, internal script hub built with the **Rayfield UI Library**. Designed
 *   **Powerful Anti-AFK**: State-of-the-art prevention against "Disconnected for inactivity".
 *   **System Tools**: Kill Character, Rejoin Server, Server Hop, Reset All Settings, and Destroy GUI.
 
+### ⚙️ Config Manager (Sistem Profil)
+*   **Save & Load Config**: Simpan pengaturan hub (seperti ESP, Waypoints, Walkspeed, dsb) secara spesifik ke dalam sistem file Executor dan muat kembali kapan saja.
+*   **Multi-Profile Support**: Auto-filtering daftar Config menyesuaikan *Place ID* game yang sedang dimainkan dengan opsi untuk menghapus profil usang.
+*   **Export & Import JSON**: Memungkinkan sinkronisasi atau bagi-pakai pengaturan antar perangkat dengan format *Clipboard JSON* (*Copy-Paste*).
+
 ### 👨‍💻 Dev Tools (Developer Only)
 *Exclusive whitelist-only features for game debugging and analysis.*
 *   **Load SimpleSpy**: Network remote spy tool to track RemoteEvents and RemoteFunctions.
