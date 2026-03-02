@@ -88,6 +88,18 @@ A powerful, internal script hub built with the **Rayfield UI Library**. Designed
     *   Dapatkan **BodyBags** dan **Cable Ties** secara instan.
 *   **System Tools**: Melakukan eksekusi *Force Vote Reset* dengan sekali klik.
 
+### ⛏️ Dig Out Of Jail (Place: 79638614256104)
+*   **Auto Farm (Get & Sell)**: Siklus otomatis untuk *looting* item yang terkubur berdasarkan tingkat kelangkaan (Rarity) dan berteleportasi otomatis untuk menjualnya ke NPC.
+*   **Manual Farm Controls**:
+    *   Ambil paksa seluruh item (Semua Rarity) di area map secara instan (*PickupDigItem Remote*).
+    *   Sistem seleksi kelangkaan dari *Dropdown* (Pilih antara *Common*, *Uncommon*, *Rare*, *Epic*, atau *Legendary*).
+    *   *One-Click Teleport & Sell*: Pindah instan ke Seller NPC dan trigger eksekusi *Proximity Prompt* penjualan.
+
+### 🏐 Volleyball-Ascended (Place: 94450914651792)
+*   **Spike Control & Air Movement**: Kendali penuh di udara. Berputar menyesuaikan pergerakan *Mouse* (menggunakan *BodyGyro*) saat sedang melompat (*Freefall*), serta opsi *Toggles* mengaktifkan pergerakan berjalan bebas (*Move in Air*).
+*   **Movement Modifiers**: Kustomisasi presisi menggunakan slider untuk *Walk Speed* dan peningkat *Jump Height Multiplier*.
+*   **Smart Dive Handling**: Algoritma pengaman internal yang memastikan *WalkSpeed* dan momentum dinonaktifkan secara sempurna saat pengguna memasuki frame animasi *Dive* atau *Slide*.
+
 ---
 
 ## 🛠️ Installation & Execution
