@@ -274,12 +274,12 @@ Modul fishing automation yang komprehensif dengan fitur toko, teleport, dan penj
 
 | Fitur | Detail |
 |:------|:-------|
-| **Auto Fish** | Siklus memancing otomatis penuh — cast, reel, dan confirm item |
-| **Instant Confirm** | Skip mini-game dan langsung konfirmasi item |
-| **Shortcut Toggle** | Keybind `C` untuk toggle Auto Fish cepat |
-| **Auto Sell Stars** | Jual otomatis ke NPC Star Merchant dengan delay kustom |
-| **Sell All (Manual)** | Teleport ke NPC → Jual semua → Kembali ke lokasi fishing |
-| **Sell Shortcut** | Keybind `V` untuk sell instan |
+| **Auto Fish (Smooth Loop)** | Siklus otomatis ringan yang sinkron secara live melalui `task.wait()` |
+| **Smart Server-Sync Confirm** | (Anti-Miss) Membaca referensi waktu `TimingTbl` server, jaminan 100% item/ikan tidak akan luput |
+| **Shortcut Toggle** | Keybind `C` untuk memicu `Auto Fish` secara cepat |
+| **Auto Sell Stars (Real-Time)**| Jualan bintang otomatis dengan interval dinamis `tick()`—tanpa lag |
+| **Sell All (Manual/Precision)**| Teleport ke *Star Merchant* → Jual semua bintang → *Auto-return* ke posisi memancing anda yang presisi |
+| **Sell Shortcut** | Keybind `V` untuk pemicu sell instan sewaktu memancing |
 </details>
 
 <details>
