@@ -93,7 +93,8 @@ Hub ini menggunakan arsitektur **modular** — setiap game memiliki modul terpis
 
 | Fitur | Detail |
 |:------|:-------|
-| **WalkSpeed** | Slider pengaturan kecepatan jalan *(16–200)* |
+| **WalkSpeed (Advanced Bypass)** | 3 Sistem pergerakan untuk *Anti-Cheat Bypass*: **Default**, **CFrame** *(posisional)*, dan **Heatseeker** *(random speed boost)* |
+| **WalkSpeed Modifiers** | Kustomisasi mendetail: *CFrame Multiplier*, *Heatseeker Min/Max Boost*, *Chance*, *Duration*, dan *Cooldown* |
 | **JumpPower** | Slider pengaturan kekuatan lompat *(50–500)* |
 | **Gravity** | Custom gravitasi dunia *(0–500, default: 196)* |
 | **Fly** | Mode terbang smooth mengikuti arah kamera |
