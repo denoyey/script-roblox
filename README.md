@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/UI-Rayfield_v4-7c4dff?style=flat-square&logo=lua&logoColor=white" />
   <img src="https://img.shields.io/badge/Architecture-Modular-ff6d00?style=flat-square&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/Platform-PC_|_Mobile-00b0ff?style=flat-square&logo=roblox&logoColor=white" />
-  <img src="https://img.shields.io/badge/Games-5+_Supported-e91e63?style=flat-square&logo=gamepad&logoColor=white" />
+  <img src="https://img.shields.io/badge/Games-6+_Supported-e91e63?style=flat-square&logo=gamepad&logoColor=white" />
 </p>
 
 <p align="center">
@@ -53,7 +53,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/denoyey/script-roblox
     ├── 86111605798689.lua ── Star Fishing
     ├── 21532277.lua ──────── Notoriety
     ├── 79638614256104.lua ── Dig Out Of Jail
-    └── 94450914651792.lua ── Volleyball-Ascended
+    ├── 94450914651792.lua ── Volleyball-Ascended
+    └── 117868278782684.lua ─ Supermarket Together
 ```
 
 Hub ini menggunakan arsitektur **modular** — setiap game memiliki modul terpisah yang di-load otomatis berdasarkan **Place ID / Universe ID** saat ini. Sistem `gameMappings` memastikan game multi-place (seperti Notoriety yang memiliki banyak heist map) tetap terdeteksi dengan sempurna.
@@ -345,6 +346,24 @@ Auto farm dengan sistem seleksi kelangkaan dan penjualan otomatis.
 
 ---
 
+### 🛒 Supermarket Together
+> **Place ID:** `117868278782684`
+
+Bot otomatis yang cerdas untuk memindai barang dan menata produk ke rak secara rapih.
+
+| Fitur | Detail |
+|:------|:-------|
+| **Product Scanner** | Mendeteksi dan membuat daftar semua box produk yang berserakan di lantai |
+| **Auto Take All Boxes** | Mengambil semua produk yang ada di lantai secara otomatis dan cepat |
+| **Smart Auto Restock** | Otomatis menata produk ke rak/kulkas dengan kecerdasan sortir 1 rak = 1 jenis produk |
+| **Restock Location** | Pilihan menata barang ke *Toko (Display Rak)* atau *Gudang (Storage Room)* |
+| **Max Slot per Produk** | Atur batas maksimal slot per produk dalam satu rak secara realtime (1-8, default 4) |
+| **Random Placement (Ugal-ugalan)** | Bypass aturan sortir dan taruh barang secara acak ke rak manapun yang kosong |
+
+<br/>
+
+---
+
 ### 🏐 Volleyball-Ascended
 > **Place ID:** `94450914651792`
 
@@ -383,7 +402,7 @@ Kontrol presisi untuk pemain volleyball kompetitif.
 | Metrik | Nilai |
 |:-------|:------|
 | **Total Fitur Universal** | 30+ toggle, slider, dan tools |
-| **Total Game Modules** | 5 game spesifik |
+| **Total Game Modules** | 6 game spesifik |
 | **Total Lines of Code** | 4000+ baris Lua |
 | **UI Library** | Rayfield v4 by Sirius Team |
 | **Arsitektur** | Modular (Core + Game Modules) |
